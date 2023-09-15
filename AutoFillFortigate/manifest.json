@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "FortiLogger",
+    "version": "1.0.0",
+    "description": "Auto fill Fortigate login form",
+    "permissions": [
+        "activeTab",
+        "storage",
+        "tabs",
+        "webRequest",
+        "webNavigation"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]   
+}
