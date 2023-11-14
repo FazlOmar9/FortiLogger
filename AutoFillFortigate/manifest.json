@@ -1,8 +1,12 @@
 {
     "manifest_version": 3,
     "name": "FortiLogger",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "Auto fill Fortigate login form",
+    "icons": {
+        "48": "./icons/logo48.png",
+        "128": "./icons/logo128.png"
+    },
     "permissions": [
         "activeTab",
         "storage",
@@ -10,6 +14,9 @@
         "webRequest",
         "webNavigation"
     ],
+    "action": {
+        "default_popup": "popup.html"
+    },
     "background": {
         "service_worker": "background.js"
     },
