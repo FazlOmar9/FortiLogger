@@ -1,9 +1,11 @@
 # FortiLogger
 
 ## Introduction
+
 Auto-filler for fortigate interface. No more login hassle! :shipit:
 
 ## How to install
+
 - Download the zip file from the **Code** button above.
 - Unzip the file.
 - Go to the browser of your choice, and open extension settings.
@@ -14,6 +16,7 @@ Auto-filler for fortigate interface. No more login hassle! :shipit:
 - Fill your creds.
 
 ## Message from the developer
+
 Hey people! Thanks for using my extension, please consider giving this repo a star :star:, it would really mean a lot.
 
 You will never see the boring login page ever again! 💫
