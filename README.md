@@ -1,4 +1,4 @@
-# FortiLogger
+# FortiLogger v2.0.1
 
 ## Introduction
 
@@ -20,3 +20,7 @@ Auto-filler for fortigate interface. No more login hassle! :shipit:
 Hey people! Thanks for using my extension, please consider giving this repo a star :star:, it would really mean a lot.
 
 You will never see the boring login page ever again! 💫
+
+### Note for v1.0.0 users
+
+Go to extension settings and remove the current extension, then follow the steps above!
