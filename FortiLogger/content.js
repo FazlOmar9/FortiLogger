@@ -1,7 +1,7 @@
 chrome.storage.sync.get(['username', 'password'], (credentials) => {
   if (document.getElementById("ft_un") && document.getElementById("ft_pd")) {
-    let loginField = document.getElementById("ft_un");
-    let passwordField = document.getElementById("ft_pd");
+    var loginField = document.getElementById("ft_un");
+    var passwordField = document.getElementById("ft_pd");
   }
   else return;
 
