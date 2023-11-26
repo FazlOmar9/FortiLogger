@@ -1,4 +1,4 @@
-# FortiLogger v2.0.1
+# FortiLogger v2.0.2
 
 ## Introduction
 
